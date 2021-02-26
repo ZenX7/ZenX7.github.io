@@ -2,37 +2,146 @@
     src: url(font/paladinssuperital.ttf);
     font-family: F1;
 }
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
 body {
     background-color: rgb(59, 59, 59);
+    display: block;
 }
-
-h1 {
+.ZenX7 h1 {
 color: white;    
 font-family: F1;
 position: relative;
-left: 730px;
-font-size:70px;
+top: 50px;
+left: 50px;
+font-size:50px;
 
 }
 
 .facebook img {
     position: relative;
-    left: 550px;
+    left: 20px;
     top: 40px;
     border: 1px solid #000000;
 }
 
 .twitter img {
     position: relative;
-    left: 850px;
-    bottom: 62px;
+    left: 150px;
+    bottom: 32px;
     border: 1px solid #000000;
 
 }
 
 .youtube img {
     position: relative;
-    left: 1150px;
-    bottom: 163px;
+    left: 275px;
+    bottom: 104px;
     border: 1px solid #000000;
 }
+
+@media only screen and (min-width: 768px) {
+
+
+
+    .ZenX7 h1 {
+        width: 100%;
+        padding-bottom: 50px;
+        color: white;    
+        font-family: F1;
+        position: relative;
+        left: 120px;
+        font-size:100px;
+        
+        }
+
+        .facebook img {
+            position: relative;
+            left: 70px;
+            top: 50px;
+            border: 1px solid #000000;
+            height: 150px;
+            width: 150px;
+        }
+        
+        .twitter img {
+            position: relative;
+            left: 320px;
+            bottom: 102px;
+            border: 1px solid #000000;
+            height: 150px;
+            width: 150px;
+        
+        }
+        
+        .youtube img {
+            position: relative;
+            left: 550px;
+            bottom: 254px;
+            border: 1px solid #000000;
+            height: 150px;
+            width: 150px;
+        }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+
+    .ZenX7 h1 {
+        width: 100%;
+        padding-bottom: 50px;
+        color: white;    
+        font-family: F1;
+        position: relative;
+        left: 750px;
+        font-size:70px;
+        
+        }
+
+        .facebook img {
+            position: relative;
+            left: 610px;
+            top: 50px;
+            border: 1px solid #000000;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .twitter img {
+            position: relative;
+            left: 880px;
+            bottom: 52px;
+            border: 1px solid #000000;
+            height: 100px;
+            width: 100px;
+        
+        }
+        
+        .youtube img {
+            position: relative;
+            left: 1150px;
+            bottom: 154px;
+            border: 1px solid #000000;
+            height: 100px;
+            width: 100px;
+        }
+
+}
+
